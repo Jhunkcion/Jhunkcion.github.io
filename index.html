@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Untuk Kamu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </head>
 <body>
-    <p>Halo</p>
+    <div class="decorative-left">
+        <img src="/assets/images/left1.jpg" alt="">
+        <img src="assets/images/left2.jpg" alt="">
+    </div>
+    <div class="container">
+        <h1>Happy Birthday, <span class="heartbeat">Arfa!</span> 🎉</h1>
+        <h2>You make my world brighter every day ❤️</h2>
+        <img src="assets/images/arfa.jpg" alt="Romantic placeholder image">
+        
+        <div class="language-toggle">
+            <button id="btn-indo" onclick="showContent('indo')">Bahasa Indonesia</button>
+            <button id="btn-english" onclick="showContent('english')">English</button>
+        </div>
+        
+        <div id="message-indo" class="message">
+            <p class="pesan"> Halo, gimana kabar kamu? :) 
+                <br>Sehat sehat aja kan? 
+                <br>Selamat Ulang Tahun Untuk Kamu! Semoga kamu panjang umur, sehat jasmani dan terutama mental kamu.
+                <br><br>
+                Di box ini ada beberapa hadiah yang Aku persiapkan untuk Kamu.
+            </p>
+        </div>
+    
+        <div id="message-english" class="message hidden">
+            <p class="pesan">Happy birthday, my love! You are the source of joy in my life. May your day be as beautiful as your smile. I love you forever! 💕</p>
+        </div>
+        
+        
+        <button id="surprise-btn" onclick="triggerSurprise()">Click for a surprise</button>
+    </div>
+
+    <!-- Tombol WhatsApp Floating -->
+    <a href="https://wa.me/6285179792845?text=Terima%20Kasih%2C%20dit%21%20Makasih%20sudah%20Ngucapin." 
+        class="whatsapp-button" target="_blank">
+        <img src="assets/whatsapp.png" alt="WhatsApp">
+    </a>
+
+    <div class="decorative-right">
+        <img src="/assets/images/right1.jpg" alt="">
+        <img src="assets/images/right2.jpg" alt="">
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 All rights reserved | Made with <span class="heartbeat">❤️</span> for <span class="heartbeat">Arfa</span></p>
+        <p>Created by <a>Aditya</a></p>
+    </footer>
+
 </body>
+<script src="scripts/script.js">
+</script>
 </html>
