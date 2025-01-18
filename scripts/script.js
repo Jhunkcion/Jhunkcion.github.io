@@ -39,3 +39,7 @@ function showContent(language) {
         indoMessage.classList.add('hidden');
     }
 }
+
+document.getElementById("pageBricck").onclick = function () {
+    window.location.href = "lego.html";
+};

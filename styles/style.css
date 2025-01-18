@@ -33,6 +33,23 @@ body {
     box-sizing: border-box; /* Menambahkan box-sizing */
 }
 
+.button-class {
+    background-color: #4CAF50;
+    /* Green */
+    left: 100px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
 /* Header */
 h1 {
     font-size: 3rem;
