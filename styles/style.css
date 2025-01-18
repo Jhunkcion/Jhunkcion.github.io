@@ -8,7 +8,6 @@ html, body {
     font-family: 'Poppins', sans-serif;
 }
 
-
 body {
     background: linear-gradient(135deg, #FFE1FF 5%, #fad0c4 100%);
     color: #FFE1FF;
@@ -22,6 +21,17 @@ body {
     max-width: 1200px; 
 }
 
+/* Footer */
+.footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%; /* Pastikan footer mengisi seluruh lebar */
+    position: relative; /* Ensure footer is positioned correctly */
+    margin-top: 50px; /* Atur jarak dari konten */
+    box-sizing: border-box; /* Menambahkan box-sizing */
+}
 
 /* Header */
 h1 {
@@ -76,6 +86,16 @@ img {
     animation: fadeIn 3s ease-in-out;
 }
 
+.mess{
+    font-size: 1.2rem;
+    margin: 30px auto;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    animation: fadeIn 3s ease-in-out;
+}
 .pesan {
     color: #431919;
 }
@@ -149,31 +169,6 @@ button:hover {
 .whatsapp-button img {
     width: 50px; /* Ukuran ikon WhatsApp */
     height: 50px;
-}
-
-/* Footer */
-.footer {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    width: 100%; /* Pastikan footer mengisi seluruh lebar */
-    margin-top: 50px; /* Atur jarak dari konten */
-    box-sizing: border-box; /* Menambahkan box-sizing */
-}
-
-.footer p {
-    margin: 5px 0;
-    font-size: 1rem;
-}
-
-.footer a {
-    color: #ff6f61;
-    text-decoration: none;
-}
-
-.footer a:hover {
-    text-decoration: underline;
 }
 
 /* Animasi marquee */
